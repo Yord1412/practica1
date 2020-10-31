@@ -3,14 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Practica 1</title> 
-		<link rel="stylesheet" type="text/css" href="./assets/css/app.css?v=0.0.1" media="all"> 
+		<link rel="stylesheet" type="text/css" href="./assets/css/app.css?v=0.0.2" media="all"> 
 	</head>
 	 
 	<body>
+		<!-- imagen de fondo -->
 		<div id="fondo">
 			<img src="assets/imagenes/fondo.jpg">
 		</div>
+		<!-- lugar donde estaran la mayoria de elementos -->
 		<div id="principal">
+			<!-- menu de la izquierda -->
 			<div id="menu_estatico">
 				<div id="margen_estatico">
 					<div id="icono_menu">
@@ -19,19 +22,27 @@
 						</div>
 					</div>
 					<div id="botones_menu">
-						<div>
+						<div class="botones">
 							<a href="#principal">Home</a>
 						</div>
-						<div>
+						<div class="botones">
 							<a href="#sobre_mi">About me</a>
 						</div>
-						<div>
+						<div class="botones">
 							<a href="#linea_principal">Resume</a>
 						</div>
-						<div>
+						<div class="botones">
 							<a href="#skils_principal">Skills</a>
 						</div>
-						
+						<div class="botones">
+							<a href="#portafolio_principal">Portfolio</a>
+						</div>
+						<div class="botones">
+							<a href="#testimonios_principal">Testimonials</a>
+						</div>
+						<div class="botones">
+							<a href="#skils_principal">Contact</a>
+						</div>
 					</div>
 					<div id="menu_copy">
 						<p>
@@ -41,11 +52,12 @@
 					</div>
 				</div>
 			</div>
-			
+
+			<!-- area donde esta el perfil -->
 			<div id="perfil_prin">
 				<div id="perfil">
 					<div id="imagen_perfil">
-						<img src="assets/imagenes/imagen_perfil.JPG">
+						<img src="assets/imagenes/imagen_perfil.jpg">
 					</div>
 					<div id="info_perfil">
 						<div id="titulo_perfil">
@@ -185,8 +197,12 @@
 				</div>
 			</div>
 
+			<!-- area donde estan mucho del contenido -->
 			<div id="contenido">
+				<!-- margen del contenido -->
 				<div id="margen_contenido">
+
+					<!-- lugar donde ver informacion resumida sobre mi -->
 					<div id="sobre_mi">
 						<div class="subtitulos">
 							<h2>
@@ -230,6 +246,7 @@
 						</div>
 					</div>
 
+					<!-- linea del tiempo -->
 					<div id="linea_principal">
 						<div class="subtitulos">
 							<h2>
@@ -264,7 +281,7 @@
 									</div>
 								</div>
 								
-								<div class="contenido_info">
+								<div class="fecha">
 									<div class="fecha_izq">
 										<p>
 											2012 - 2014
@@ -288,7 +305,7 @@
 									</div>
 								</div>
 								
-								<div class="contenido_info">
+								<div class="fecha">
 									<div class="fecha_izq">
 										<p>
 											2012 - 2014
@@ -303,8 +320,8 @@
 
 							<div id="linea_derecha">
 
-								<div class="contenido_info">
-									<div class="fecha_izq">
+								<div class="fecha">
+									<div class="fecha_der">
 										<p>
 											2012 - 2014
 										</p>
@@ -327,8 +344,8 @@
 									</div>
 								</div>
 
-								<div class="contenido_info">
-									<div class="fecha_izq">
+								<div class="fecha">
+									<div class="fecha_der">
 										<p>
 											2012 - 2014
 										</p>
@@ -352,9 +369,9 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 
+					<!-- linea de escuelas cursadas -->
 					<div id="segunda_linea_principal">
 						<div class="subtitulos">
 							<h2>
@@ -366,6 +383,7 @@
 						</div>
 					</div>
 
+					<!-- habilidades -->
 					<div id="skils_principal">
 						<div class="subtitulos">
 							<h2>
@@ -377,6 +395,7 @@
 						</div>
 					</div>
 
+					<!-- area de experiencia --> 
 					<div id="experiencia_principal">
 						<div class="subtitulos">
 							<h2>
@@ -388,6 +407,7 @@
 						</div>
 					</div>
 
+					<!-- forma de trabajo -->
 					<div id="trabajo_principal">
 						<div class="subtitulos">
 							<h2>
@@ -399,6 +419,7 @@
 						</div>
 					</div>
 
+					<!-- portafolio de imagenes -->
 					<div id="portafolio_principal">
 						<div class="subtitulos">
 							<h2>
@@ -410,41 +431,130 @@
 						</div>
 					</div>
 
-					
-				</div>
-				<div id="pie_pagina">
-						<div id="elementos">
-							<div id="enlaces_pie">
-								<ul>
-									<li>
-										<a href="" title="Facebook"><img src="assets/imagenes/facebook.png"></a>
-									</li>
-									<li>
-										<a href="" title="Twitter"><img src="assets/imagenes/twitter.png"></a>
-									</li>
-									<li>
-										<a href="" title="Behance"><img src="assets/imagenes/behance.png"></a>
-									</li>
-									<li>
-										<a href="" title="google+"><img src="assets/imagenes/google.png"></a>
-									</li>
-									<li>
-										<a href="" title="Instagram"><img src="assets/imagenes/insta.png"></a>
-									</li>
-									<li>
-										<a href="" title="Linkedin"><img src="assets/imagenes/linkedin.png"></a>
-									</li>
-								</ul>
+					<!-- conteo de diversas cosas -->
+					<div id="linea_logros">
+					</div>
+
+					<!-- area de testimonios -->
+					<div id="testimonios_principal">
+						<div class="subtitulos">
+							<h2>
+								Testimonials
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+							</p>
+						</div>
+						<div id="testimonio_cont">
+							<div id="informacion_test">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.
+								</p>
+								<h4>
+									Hollow knight
+								</h4>
+							</div>
+							<div id="imagen_test">
+								<img src="assets/imagenes/hollow.jpg">
+							</div>
+						</div>
+					</div>
+
+					<!-- area de contacto -->
+					<div id="contact_prin">
+						<div class="subtitulos">
+							<h2>
+								Contact me
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit
+							</p>
+						</div>
+
+						<div id="area_form">
+							<div id="info_contacto">
+								<div id="info">
+									<h3>
+										Contact info:
+									</h3>
+									<p>
+										E:js@gmail.com<br>
+										p:055613441255
+									</p>
+									<h3>
+										<label>
+											What i can do:
+										</label>
+										
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									</p>
+								</div>
+							</div>
+							<div id="formulario">
+								<form>
+									<input type="text" name="First_name" placeholder="Your name" size="85">
+										
+									<input type="text" name="Last_name" placeholder="Your Email" size="85">
+
+									<select name="opciones">
+									 	<option value="proyecto">I have a proyect to Jordy</option> 
+									  	<option value="interes" selected>I am interested</option>
+									  	<option value="invitacion">invitacion in a place</option>
+									  	<option value="otro">others</option>
+									</select>
+
+									<textarea rows="8" cols="64" placeholder="Your message" ></textarea>
+
+									<div id="boton_form">
+										<a type="button" href="">Enviar mensaje</a>
+									</div>
+								</from>
 							</div>
 
-							<div id="copyright">
-								<p>
-									© Jordy Segoviano All right reserved 2020
-								</p>
-							</div>
 							
 						</div>
 					</div>
+				</div>
+
+				<div id="pie_pagina">
+					<div id="elementos">
+						<div id="enlaces_pie">
+							<ul>
+								<li>
+									<a href="" title="Facebook"><img src="assets/imagenes/facebook.png"></a>
+								</li>
+								<li>
+									<a href="" title="Twitter"><img src="assets/imagenes/twitter.png"></a>
+								</li>
+								<li>
+									<a href="" title="Behance"><img src="assets/imagenes/behance.png"></a>
+								</li>
+								<li>
+									<a href="" title="google+"><img src="assets/imagenes/google.png"></a>
+								</li>
+								<li>
+									<a href="" title="Instagram"><img src="assets/imagenes/insta.png"></a>
+								</li>
+								<li>
+									<a href="" title="Linkedin"><img src="assets/imagenes/linkedin.png"></a>
+								</li>
+							</ul>
+						</div>
+						<div id="copyright">
+							<p>
+								© Jordy Segoviano All right reserved 2020
+							</p>
+						</div>
+						
+					</div>
+				</div>
 			</div>
 			
 		</div>

@@ -61,10 +61,9 @@ margin:0;
 }
 
 #botones_menu{
-	margin-top: auto;
+	margin-top: 250px;
 	margin-bottom: auto;
 	text-align: left;
-	height: 300px;
 	display: block;
 }
 
@@ -77,11 +76,14 @@ margin:0;
 	padding-bottom: 15px;
 }
 
+.botones{
+	margin-bottom: 10px;
+}
+
 #menu_copy{
-	position: relative;
-	float: right;
+	text-align: left;
 	margin-bottom: auto;
-	margin-top: auto;
+	margin-top: 300px;
 }
 
 #perfil_prin{
@@ -118,6 +120,14 @@ margin:0;
 	margin: 0px;
 }
 
+#boton_perfil a{
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+	padding: 20px;
+	background-color: #6a6af6;
+}
+
 #baner_perfil{
 	background-color: #6a6af6;
 	padding-bottom: 15px;
@@ -147,6 +157,7 @@ margin:0;
 }
 
 #contenido{
+	box-shadow: 10px 5px 5px black;
 	position: relative;
 	padding-top: 150px;
 	background-color: white;
@@ -162,6 +173,19 @@ margin:0;
 
 .subtitulos{
 	text-align: center;
+	margin-bottom: 30px;
+}
+
+.subtitulos h2{
+	font-size: 36px;
+}
+
+.subtitulos p{
+
+}
+
+#sobre_mi{
+	margin-bottom: 80px;
 }
 
 #informacion_mi ul{
@@ -175,6 +199,7 @@ margin:0;
 }
 
 #contenido_linea{
+	margin-bottom: 100px;
 	display: flex;
 }
 
@@ -193,10 +218,121 @@ margin:0;
 	margin-right: 10px;
 }
 
+#linea_cont p{
+	background-color: #eeeef1;
+	padding: 10px;
+}
+
 .contenido_info{
 	border-style: solid;
 	min-height: 140px;
 	padding: 20px;
+}
+
+.fecha{
+	min-height: 140px;
+	padding: 20px;
+}
+
+.fecha_izq{
+	font-size: 12px;
+	display: inline-flex;
+	border-radius: 1%;
+	float: right;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: blue;
+}
+
+.fecha_der{
+	font-size: 12px;
+	display: inline-flex;
+	border-radius: 1%;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: blue;
+}
+
+#testimonios_principal{
+	margin-bottom: 60px;
+}
+
+#informacion_test{
+	width: 70%;
+}
+
+#testimonio_cont{
+	display: flex;
+}
+
+#imagen_test img{
+	width: 400px;
+	height: 300px;
+}
+
+#contact_prin{
+	margin-bottom: 60px;
+}
+
+#area_form{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+#info_contacto{
+	width: 50%;
+	padding-right: 30px;
+}
+
+#formulario{
+	text-align: left;
+	margin-left: auto;
+	margin-right: 50px;
+	max-width: 570px;
+	max-height: 650px;
+}
+
+#formulario h3{
+	color: white;
+}
+
+#formulario a{
+	text-align: center;
+}
+
+#formulario input{
+	border-radius: 5px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+#formulario select{
+	border-radius: 5px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+#formulario textarea{
+	border-radius: 5px;
+}
+
+#boton_form{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#boton_form a{
+	float: left;
+	color: white;
+	background-color: #6a6af6;
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom width: 5px;
+	padding: 6px;
+	border-radius: 5px;
 }
 
 #pie_pagina{
